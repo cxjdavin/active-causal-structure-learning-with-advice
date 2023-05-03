@@ -10,7 +10,7 @@ Motivated by Theorem 7 of [CS23], we experimented on synthetic moral DAGs.
 
 ### Synthetic graph classes
 
-We evaluated our advice algorithm on the synthetic graph instances of [WBL21] on graph instances of sizes $n = \{16, 32, 64\}$.
+We evaluated our advice algorithm on the synthetic graph instances of [WBL21] on graph instances of sizes $n = \\{16, 32, 64\\}$.
 See Appendix E of [WBL21] for details about each class of synthetic graphs. Instances are available at https://github.com/mwien/CliquePicking/tree/master/aaai_experiments.
 
 For each undirected chordal graph instance, we do the following:
