@@ -17,11 +17,11 @@ For each undirected chordal graph instance, we do the following:
 
 1. Set $m = 1000$ as the number of advice DAGs that we will sample.
 
-2. Use the uniform sampling algorithm of [WBL21] to uniformly sample $m$ advice DAGs $\widetilde{G}_{1}, \ldots, \widetilde{G}_{m}$.
+2. Use the uniform sampling algorithm of [WBL21] to uniformly sample $m$ advice DAGs $\widetilde{G_1}, \ldots, \widetilde{G_m}$.
 
 3. Randomly select $G^*$ from one of $\widetilde{G}_1$, $\ldots, \widetilde{G}_{m}$.
 
-4. For each $\widetilde{G} \in \{\widetilde{G}_1$, $\ldots, \widetilde{G}_{m}\}$,  
+4. For each $\widetilde{G} \in \{\widetilde{G_1}, \ldots, \widetilde{G_m}\}$,  
 - Compute a minimum verifying set $\widetilde{V}$ of $\widetilde{G}$.
 - Define and compute $\psi(G^*, \widetilde{V})$ = $\left| \rho(\widetilde{V}, N_{skel(\mathcal{E}(G^*))}^{h(G^*, \widetilde{V})}(\widetilde{V}) \right|$.
 - Compute a verifying set using $(\mathcal{E}(G^*), \widetilde{G})$ as input to Algorithm 3.
