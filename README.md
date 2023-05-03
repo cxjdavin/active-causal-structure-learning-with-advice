@@ -17,7 +17,7 @@ For each undirected chordal graph instance, we do the following:
 
 1. Set $m = 1000$ as the number of advice DAGs that we will sample.
 
-2. Use the uniform sampling algorithm of [WBL21] to uniformly sample $m$ advice DAGs $\tilde{G}_1$, $\ldots, \widetilde{G}_{m}$.
+2. Use the uniform sampling algorithm of [WBL21] to uniformly sample $m$ advice DAGs $\widetilde{G_1}$, $\ldots, \widetilde{G}_{m}$.
 
 3. Randomly select $G^*$ from one of $\widetilde{G}_1$, $\ldots, \widetilde{G}_{m}$.
 
