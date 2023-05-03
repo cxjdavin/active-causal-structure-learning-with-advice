@@ -42,7 +42,7 @@ Nonetheless, the number of interventions used is always theoretically bounded be
 
 Consider the following experimental plot for one of the synthetic graphs $G^\*$, with respect to $1000 \ll |[G^\*]| \approx 1.4 \times 10^{6}$ uniformly sampled advice DAGs $\widetilde{G}$ from the MEC $[G^\*]$. The solid lines indicate the number of atomic interventions used while the dotted lines indicate the empirical cumulative probability density of $\widetilde{G}$. The true cumulative probability density lies within the shaded area with probability at least 0.99. This specific graph instance suggests that our advice search outperforms its advice-free counterpart when given an advice DAG $\widetilde{G}$ that is better than $\sim 40\%$ of all possible DAGs consistent with the observational essential graph $\mathcal{E}(G^\*)$.
 
-<p align="center"
+<p align="center">
 <img src="./figures/thickening-n=64-3-nr=1.gr_1000.png" alt="thickening-n=64-3-nr=1.gr_1000" width="50%"/>
 </p>
 
