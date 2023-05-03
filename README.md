@@ -23,7 +23,7 @@ For each undirected chordal graph instance, we do the following:
 
 4. For each $\widetilde{G} \in$ { $\widetilde{G_1}, \ldots, \widetilde{G_m}$ },  
 - Compute a minimum verifying set $\widetilde{V}$ of $\widetilde{G}$.
-- Define and compute $\psi(G^\*, \widetilde{V}) = \left| \rho(\widetilde{V}, N_{skel(\mathcal{E}(G^\*))}^{h(G^\*, \widetilde{V})}(\widetilde{V}) \right|$.
+- Define and compute $\psi(G^\*, \widetilde{V}) = \left| \rho \left( \widetilde{V}, N_{skel(\mathcal{E}(G^\*))}^{h(G^\*, \widetilde{V})}(\widetilde{V}) \right) \right|$.
 - Compute a verifying set using $(\mathcal{E}(G^\*), \widetilde{G})$ as input to Algorithm 3.
 
 5. Aggregate the sizes of the verifying sets used based on $\psi(G^\*, \widetilde{V})$ and compute the mean and standard deviations.
